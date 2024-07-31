@@ -16,7 +16,7 @@ export const GPT_MODELS = [
   'gpt-4o',
 ] as const;
 
-export const OPENAI_MODELS = [...GPT_MODELS, 'text-davinci-003', 'text-davinci-002'] as const;
+export const OPENAI_MODELS = [...GPT_MODELS, 'text-davinci-003', 'text-davinci-002','gpt-4o-mini'] as const;
 
 export type GPTModel = (typeof GPT_MODELS)[number];
 export type OpenAIModel = (typeof OPENAI_MODELS)[number];
